@@ -9,7 +9,20 @@ class Program
 {
     static void Main(string[] args)
     {
+        Sort.GnomeSort();
+        ConsoleSeparator();
+        ConvexHull.ConvexHullBruteForce();
+        ConsoleSeparator();
+        ConvexHull.ConvexHullJarvis();
+        ConsoleSeparator();
+        ConvexHull.ConvexHullGraham();
+        ConsoleSeparator();
+        KnightsTourProblem.KnightsTourMain();
+        ConsoleSeparator();
+        SudokuSolver.SudokuSolverMain();
+        ConsoleSeparator();
         Maze.MazeMain();
+        
         PrintTimeStamp("Іван Завалій");
     }
     
@@ -20,6 +33,11 @@ class Program
         var culture = new CultureInfo("uk-UA");
         Console.WriteLine("\n   Дата та час компіляції: {0}", localDate.ToString(culture));
         Console.WriteLine("   Автор: {0}", name);
+    }
+
+    static void ConsoleSeparator()
+    {
+        Console.WriteLine("\n====================================\n");
     }
 }
 
