@@ -244,14 +244,9 @@ class ConvexHull
         }
     }
 
-    private static double Cross(Point a, Point b, Point c)
-    {
-        return (b.X - a.X) * (c.Y - a.Y) - (b.Y - a.Y) * (c.X - a.X);
-    }
-
     private static double Angle(Point a, Point b, Point c)
     {
-        return Cross(a, b, c);
+        return (b.X - a.X) * (c.Y - a.Y) - (b.Y - a.Y) * (c.X - a.X);
     }
     
     private static double Distance(Point a, Point b)
