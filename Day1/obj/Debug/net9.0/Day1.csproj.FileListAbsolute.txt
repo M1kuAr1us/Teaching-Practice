@@ -1,0 +1,14 @@
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.exe
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.deps.json
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.runtimeconfig.json
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.dll
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.pdb
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.GeneratedMSBuildEditorConfig.editorconfig
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.AssemblyInfoInputs.cache
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.AssemblyInfo.cs
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.csproj.CoreCompileInputs.cache
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.dll
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\refint\Day1.dll
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.pdb
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.genruntimeconfig.cache
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\ref\Day1.dll
