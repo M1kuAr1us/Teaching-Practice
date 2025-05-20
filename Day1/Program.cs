@@ -91,36 +91,41 @@ class ConvexHull
     {
         var results = new List<(Point, Point)>();
 
-        for (int i = 0; i < points.Count; i++)
+        foreach (var p1 in points)
         {
-            for (int j = 0; j < points.Count; j++)
+            foreach (var p2 in points)
             {
-                if (i == j) continue;
+                if (p1 == p2) continue;
 
-                Point p1 = points[i];
-                Point p2 = points[j];
                 int? side = null;
-                bool isEdge = true;
+                bool valid = true;
 
-                for (int k = 0; k < points.Count; k++)
+                foreach (var p3 in points)
                 {
-                    if (k == i || k == j) continue;
+                    if (p3 == p1 || p3 == p2) continue;
 
-                    Point p3 = points[k];
-                    int currentSide = GetSide(p1, p2, p3);
+                    int a = p2.Y - p1.Y;
+                    int b = p1.X - p2.X;
+                    int c = p1.X * p2.Y - p1.Y * p2.X;
+
+                    int result = a * p3.X + b * p3.Y - c;
+
+                    int currentSide = result > 0 ? 1 : (result < 0 ? -1 : 0);
+
+                    if (currentSide == 0) continue;
 
                     if (side == null)
                     {
                         side = currentSide;
                     }
-                    else if (currentSide != 0 && side != currentSide)
+                    else if (side != currentSide)
                     {
-                        isEdge = false;
+                        valid = false;
                         break;
                     }
                 }
 
-                if (isEdge)
+                if (valid)
                 {
                     results.Add((p1, p2));
                 }
@@ -136,35 +141,39 @@ class ConvexHull
     
     public static void ConvexHullJarvis()
     {
-        int n = points.Count;
-        List<Point> hull = new List<Point>();
-        
-        int leftmost = 0;
-        for (int i = 1; i < n; i++)
+        Point start = points[0];
+        foreach (var p in points)
         {
-            if (points[i].X < points[leftmost].X)
-                leftmost = i;
+            if (p.Y < start.Y || (p.Y == start.Y && p.X > start.X))
+                start = p;
         }
 
-        int p = leftmost, q;
+        List<Point> hull = new List<Point>();
+        Point current = start;
 
         do
         {
-            hull.Add(points[p]);
+            hull.Add(current);
+            Point next = points[0];
 
-            q = (p + 1) % n;
-
-            for (int i = 0; i < n; i++)
+            foreach (var candidate in points)
             {
-                if (OrientationJarvis(points[p], points[i], points[q]) == -1)
-                    q = i;
+                if (candidate == current)
+                    continue;
+
+                double angle = Angle(current, next, candidate);
+
+                if (next == current || angle < 0 || (angle == 0 && Distance(current, candidate) > Distance(current, next)))
+                {
+                    next = candidate;
+                }
             }
 
-            p = q;
+            current = next;
 
-        } while (p != leftmost);
+        } while (current != start); 
         
-        Console.WriteLine("Points on the Convex Hull (Jarvis Algorithm):");
+        Console.WriteLine("Points on the Convex Hull (Jarvis Scan):");
         foreach (var pt in hull)
         {
             Console.WriteLine($"({pt.X}, {pt.Y})");
@@ -234,21 +243,20 @@ class ConvexHull
             }
         }
     }
-    
-    private static int GetSide(Point p1, Point p2, Point p3)
-    {
-        int value = (p2.X - p1.X) * (p3.Y - p1.Y) - (p2.Y - p1.Y) * (p3.X - p1.X);
 
-        if (value == 0) return 0;
-        return (value > 0) ? 1 : -1;
+    private static double Cross(Point a, Point b, Point c)
+    {
+        return (b.X - a.X) * (c.Y - a.Y) - (b.Y - a.Y) * (c.X - a.X);
+    }
+
+    private static double Angle(Point a, Point b, Point c)
+    {
+        return Cross(a, b, c);
     }
     
-    private static int OrientationJarvis(Point p, Point q, Point r)
+    private static double Distance(Point a, Point b)
     {
-        int value = (q.Y - p.Y) * (r.X - q.X) - (q.X - p.X) * (r.Y - q.Y);
-
-        if (value == 0) return 0;
-        return (value > 0) ? 1 : -1;
+        return Math.Sqrt((a.X - b.X) * (a.X - b.X) + (a.Y - b.Y) * (a.Y - b.Y));
     }
     
     private static int OrientationGraham(Point p, Point q, Point r)
