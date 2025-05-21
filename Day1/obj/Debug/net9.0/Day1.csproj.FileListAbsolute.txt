@@ -1,0 +1,29 @@
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.exe
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.deps.json
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.runtimeconfig.json
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.dll
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\bin\Debug\net9.0\Day1.pdb
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.GeneratedMSBuildEditorConfig.editorconfig
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.AssemblyInfoInputs.cache
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.AssemblyInfo.cs
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.csproj.CoreCompileInputs.cache
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.dll
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\refint\Day1.dll
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.pdb
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\Day1.genruntimeconfig.cache
+F:\KingstonData\Практичні\Навчальна практика\TeachingPractice\Day1\obj\Debug\net9.0\ref\Day1.dll
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\bin\Debug\net9.0\Day1.exe
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\bin\Debug\net9.0\Day1.deps.json
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\bin\Debug\net9.0\Day1.runtimeconfig.json
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\bin\Debug\net9.0\Day1.dll
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\bin\Debug\net9.0\Day1.pdb
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.AssemblyInfoInputs.cache
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.AssemblyInfo.cs
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.csproj.CoreCompileInputs.cache
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.sourcelink.json
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.dll
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\refint\Day1.dll
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.pdb
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.genruntimeconfig.cache
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\ref\Day1.dll

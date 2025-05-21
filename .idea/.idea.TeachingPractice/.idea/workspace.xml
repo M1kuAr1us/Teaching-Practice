@@ -8,7 +8,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5c852e-0328-43c4-a113-7c55a4f277d4" name="Changes" comment="" />
+    <list default="true" id="4c5c852e-0328-43c4-a113-7c55a4f277d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TeachingPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TeachingPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/bin/Debug/net9.0/Day1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/bin/Debug/net9.0/Day1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/bin/Debug/net9.0/Day1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/bin/Debug/net9.0/Day1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/bin/Debug/net9.0/Day1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/bin/Debug/net9.0/Day1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/Day1.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/ref/Day1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/ref/Day1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/refint/Day1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/Debug/net9.0/refint/Day1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +49,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "DayTwoTasks",
+    "git-widget-placeholder": "DayOneTasks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,7 +93,7 @@
       <updated>1747689613759</updated>
       <workItem from="1747689614911" duration="2773000" />
       <workItem from="1747723567005" duration="10831000" />
-      <workItem from="1747735247385" duration="356000" />
+      <workItem from="1747738347298" duration="1315000" />
     </task>
     <servers />
   </component>
