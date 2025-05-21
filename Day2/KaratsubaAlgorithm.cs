@@ -24,7 +24,7 @@ public class KaratsubaAlgorithm
         stopwatchKaratsuba.Stop();
         Console.WriteLine($"Karatsuba multiplication: {stopwatchKaratsuba.ElapsedMilliseconds} ms");
         
-        Console.WriteLine($"Do the results match?: {resultNaive == resultKaratsuba}");
+        Console.WriteLine($"Do the results match: {resultNaive == resultKaratsuba}");
     }
     
     private static BigInteger GenerateBigInteger(int digits)

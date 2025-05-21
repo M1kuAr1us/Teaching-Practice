@@ -2,18 +2,19 @@
 
 public class UnsortedArray
 {
-     public static int[] unsortedArray = [10, 14, 28, 11, 7, 16, 30, 50, 25, 18];
+    public static readonly int[] unsortedArray = [1, 34, 12, 11, 42, 10, 14, 28, 11, 7, 16, 30, 50, 25, 18];
 }
 
-public class MergeSorting : UnsortedArray
+public class MergeSorting
 {
     public static void MergeSortMain()
     {
-        int[] array = unsortedArray;
+        int[] array = [1, 34, 12, 11, 42, 10, 14, 28, 11, 7, 16, 30, 50, 25, 18];
         
+        Console.WriteLine("Merge sort:");
         Console.WriteLine(string.Join(", ", array) + "\n");
         MergeSort(array, 0, array.Length - 1);
-        Console.WriteLine(string.Join(", ", array) + "\n");
+        Console.WriteLine(string.Join(", ", array));
     }
     
     private static void MergeSort(int[] A, int p, int r)
@@ -61,15 +62,16 @@ public class MergeSorting : UnsortedArray
     }
 }
 
-public class HeapSorting : UnsortedArray
+public class HeapSorting
 {
     public static void HeapSortMain()
     {
-        int[] array = unsortedArray;
+        int[] array = [1, 34, 12, 11, 42, 10, 14, 28, 11, 7, 16, 30, 50, 25, 18];
         
+        Console.WriteLine("Heap sort:");
         Console.WriteLine(string.Join(", ", array) + "\n");
         HeapSort(array);
-        Console.WriteLine(string.Join(", ", array) + "\n");
+        Console.WriteLine(string.Join(", ", array));
     }
     
     private static void HeapSort(int[] A)
@@ -118,15 +120,16 @@ public class HeapSorting : UnsortedArray
     }
 }
 
-public class QuickSorting : UnsortedArray
+public class QuickSorting
 {
     public static void QuickSortMain()
     {
-        int[] array = unsortedArray;
+        int[] array = [1, 34, 12, 11, 42, 10, 14, 28, 11, 7, 16, 30, 50, 25, 18];
         
+        Console.WriteLine("Quick sort:");
         Console.WriteLine(string.Join(", ", array) + "\n");
         QuickSort(array, 0, array.Length - 1);
-        Console.WriteLine(string.Join(", ", array) + "\n");
+        Console.WriteLine(string.Join(", ", array));
     }
     
     static void QuickSort(int[] A, int p, int r)

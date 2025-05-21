@@ -15,6 +15,12 @@ class Program
         HeapSorting.HeapSortMain();
         ConsoleSeparator();
         QuickSorting.QuickSortMain();
+        ConsoleSeparator();
+        CountingSorting.CountingSortMain();
+        ConsoleSeparator();
+        RadixSorting.RadixSortMain();
+        ConsoleSeparator();
+        BucketSoting.BucketSortMain();
         
         PrintTimeStamp("Завалій Іван");
     }
