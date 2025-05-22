@@ -7,10 +7,12 @@ public class KaratsubaAlgorithm
 {
     public static void KaratsubaMain()
     {
-        int digits = 10000;
+        int digits = 100000;
         
         BigInteger bigNum1 = GenerateBigInteger(digits);
         BigInteger bigNum2 = GenerateBigInteger(digits);
+        
+        Console.WriteLine($"Number of digits: {digits}");
         
         // Naive multiplication
         Stopwatch stopwatchNative = Stopwatch.StartNew();
@@ -37,9 +39,41 @@ public class KaratsubaAlgorithm
         return BigInteger.Parse(numStr);
     }
     
-    private static BigInteger NaiveMultiply(BigInteger a, BigInteger b) // .NET already has good optimization
+    static BigInteger NaiveMultiply(BigInteger x, BigInteger a)
     {
-        return a * b;
+        List<int> beta = new List<int>();
+        int i = 0;
+        
+        while (x != 1)
+        {
+            x = 3 * x + 1;
+            int beta_i = CountTrailingZeros(x);
+            beta.Add(beta_i);
+            x /= BigInteger.Pow(2, beta_i);
+            i++;
+        }
+
+        BigInteger m = a;
+        
+        while (i != 0)
+        {
+            i--;
+            m *= BigInteger.Pow(2, beta[i]);
+            m = (m - a) / 3;
+        }
+
+        return m;
+    }
+    
+    static int CountTrailingZeros(BigInteger x)
+    {
+        int count = 0;
+        while ((x & 1) == 0)
+        {
+            count++;
+            x >>= 1;
+        }
+        return count;
     }
 
     private static BigInteger KaratsubaMultiplication(BigInteger a, BigInteger b)

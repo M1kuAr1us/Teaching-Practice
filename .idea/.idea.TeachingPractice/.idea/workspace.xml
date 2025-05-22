@@ -11,14 +11,11 @@
     <list default="true" id="4c5c852e-0328-43c4-a113-7c55a4f277d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TeachingPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TeachingPractice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/KaratsubaAlgorithm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/KaratsubaAlgorithm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/RecursiveSorting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/RecursiveSorting.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/bin/Debug/net9.0/Day2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/bin/Debug/net9.0/Day2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/bin/Debug/net9.0/Day2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/bin/Debug/net9.0/Day2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/bin/Debug/net9.0/Day2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/bin/Debug/net9.0/Day2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/Day2.sourcelink.json" afterDir="false" />
@@ -26,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/ref/Day2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/ref/Day2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/refint/Day2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/Debug/net9.0/refint/Day2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day2/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +119,7 @@
       <workItem from="1747689614911" duration="2773000" />
       <workItem from="1747723567005" duration="10831000" />
       <workItem from="1747807346195" duration="7247000" />
+      <workItem from="1747940823914" duration="1055000" />
     </task>
     <servers />
   </component>
