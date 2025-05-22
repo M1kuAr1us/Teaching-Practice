@@ -1,7 +1,12 @@
 ﻿using System;
 using System.Drawing;
 using System.Globalization;
+using System.Runtime.InteropServices;
 using System.Text;
+using System.Diagnostics;
+using System.Linq;
+using System.Collections.Generic;
+using System.IO;
 
 namespace Day1;
 
@@ -9,7 +14,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Sort.GnomeSort();
+        Sort.GnomeSortMain();
         ConsoleSeparator();
         ConvexHull.ConvexHullBruteForce();
         ConsoleSeparator();
@@ -43,12 +48,8 @@ class Program
 
 class Sort
 {
-    public static void GnomeSort()
+    private static void GnomeSort(int[] arr)
     {
-        int[] arr = [8, 3, 6, 1, 10, 2, 7, 9, 5, 4];
-            
-        Console.WriteLine($"[{string.Join(", ", arr)}]\n");
-        
         int index = 1;
         int nextIndex = index++;
 
@@ -70,8 +71,49 @@ class Sort
                 }
             }
         }
+    }
+
+    public static void GnomeSortMain()
+    {
+        int[] arr = [8, 3, 6, 1, 10, 2, 7, 9, 5, 4];
+
+        Console.WriteLine($"[{string.Join(", ", arr)}]\n");
+        
+        GnomeSort(arr);
         
         Console.WriteLine($"[{string.Join(", ", arr)}]");
+    }
+
+    public static void GnomeSortGraph()
+    {
+        int[] sizes = { 10, 25, 50, 100, 200, 500, 1000 };
+        Dictionary<int, long> timings = new();
+
+        foreach (int size in sizes)
+        {
+            int[] arr = GenerateRandomArray(size);
+            Stopwatch sw = Stopwatch.StartNew();
+            GnomeSort(arr);
+            sw.Stop();
+            timings[size] = sw.ElapsedTicks;
+        }
+
+        using (StreamWriter writer = new StreamWriter("timings.csv"))
+        {
+            writer.WriteLine("Size,Ticks");
+            foreach (var kvp in timings)
+            {
+                writer.WriteLine($"{kvp.Key},{kvp.Value}");
+            }
+        }
+
+        Console.WriteLine("Results saved to file 'timings.csv'");
+    }
+    
+    private static int[] GenerateRandomArray(int size)
+    {
+        Random rnd = new();
+        return Enumerable.Range(0, size).OrderBy(_ => rnd.Next()).ToArray();
     }
 }
 
