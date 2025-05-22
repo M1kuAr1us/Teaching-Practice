@@ -27,3 +27,9 @@ C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\refint\D
 C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.pdb
 C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.genruntimeconfig.cache
 C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\ref\Day1.dll
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\bin\Debug\net9.0\System.Private.Windows.Core.dll
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.csproj.AssemblyReference.cache
+C:\Users\ivanz\Documents\GitHub\Teaching-Practice\Day1\obj\Debug\net9.0\Day1.csproj.Up2Date
