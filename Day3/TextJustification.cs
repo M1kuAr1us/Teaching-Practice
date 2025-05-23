@@ -15,7 +15,7 @@ public class TextJustification
         if (len > maxWidth)
             return INF;
 
-        return (int)Math.Pow(maxWidth - len, 3);
+        return (int)Math.Pow(maxWidth - len, 2);
     }
     
     public static List<string> JustifyDP(string[] words, int maxWidth, out int totalCost)
