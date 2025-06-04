@@ -45,7 +45,7 @@ file class User : FetchPull
     public string Name { get; set; }
     public string Email { get; set; }
     public string Password { get; set; }
-    public List<Folder> Folders { get; set; }
+    public List<Folder> Folders { get; set; } = new List<Folder>();
 
     public void Download(CloudFile file)
     {
@@ -100,8 +100,8 @@ file class Folder
     public string Name { get; set; }
     public User Owner { get; set; }
     public Folder ParentFolder { get; set; }
-    public List<CloudFile> Files { get; set; }
-    public List<Folder> ChildFolders { get; set; }
+    public List<CloudFile> Files { get; set; } = new List<CloudFile>();
+    public List<Folder> ChildFolders { get; set; } = new List<Folder>();
 
     public void AddFile(CloudFile file, Folder fileFolder)
     {
